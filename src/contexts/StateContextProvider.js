@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
+require('dotenv').config()
 
 const StateContext = createContext();
 const baseUrl = 'https://google-search3.p.rapidapi.com/api/v1';
